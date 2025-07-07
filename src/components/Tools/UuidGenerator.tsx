@@ -61,6 +61,7 @@ export default function UuidGenerator() {
   // Auto-generate UUID on mount
   useEffect(() => {
     generateSingleUuid();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // Auto-generate interval
